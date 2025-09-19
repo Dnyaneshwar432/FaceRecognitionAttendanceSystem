@@ -10,6 +10,8 @@ if 'authentication_status' not in st.session_state:
 if st.session_state['authentication_status']:
     authenticator.logout('Logout', 'sidebar', key='unique_key')
 
+   # if st.session
+
     # Retrive logs data and show in Report.py
     # extract data from redis list
     name = 'Attendance:logs'
